@@ -13,7 +13,7 @@ export default function VideoCarousel() {
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([])
   const dotRefs = useRef<(HTMLDivElement | null)[]>([])
   const divref = useRef<HTMLDivElement>(null)
-  const progressRef = useRef<HTMLDivElement>(null)
+  // const progressRef = useRef<HTMLDivElement>(null)
   const [current, setCurrent] = useState(0)
 
   useEffect(() => {

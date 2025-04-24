@@ -5,7 +5,7 @@ const SpotlightCursor: React.FC = () => {
   const [pos, setPos] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
   useEffect(() => {
-    const move = (e: MouseEvent) => setPos({ x: e.clientX-700, y: e.clientY-350 });
+    const move = (e: MouseEvent) => setPos({ x: e.clientX-700, y: e.clientY-30 });
 
     window.addEventListener("mousemove", move);
     return () => window.removeEventListener("mousemove", move);

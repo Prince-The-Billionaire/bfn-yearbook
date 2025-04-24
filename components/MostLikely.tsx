@@ -1,9 +1,9 @@
-import Image from 'next/image'
+
 import React from 'react'
 import MostLikelyCard from './MostLikelyCard'
 
 const MostLikely = () => {
-    const array: number[] = []
+    // const array: number[] = []
   return (
     <div className='min-h-screen bg-gray-100 flex items-center flex-col justify-center'>
         <h1 className='text-6xl font-bold text-black'>Most Likely To</h1>

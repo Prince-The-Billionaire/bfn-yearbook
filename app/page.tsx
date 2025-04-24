@@ -6,7 +6,7 @@ import Keymoments from "@/components/Keymoments";
 import MostLikely from "@/components/MostLikely";
 
 
-import Image from "next/image";
+
 
 export default function Home() {
   return (

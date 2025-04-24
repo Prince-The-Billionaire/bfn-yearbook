@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image'
+
 import React, { useEffect } from 'react'
 import { HiSparkles } from 'react-icons/hi'
 import gsap from 'gsap'
@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const ListComponent = () => {
     const pageref = React.useRef<HTMLDivElement>(null)
-        const imageref = React.useRef<HTMLDivElement>(null)
+        
         
         useEffect(() => {
             if (!pageref.current) return;

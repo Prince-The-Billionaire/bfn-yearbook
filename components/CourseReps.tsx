@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
-import { HiSparkles } from 'react-icons/hi'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import ListComponent from './ListComponent'
@@ -9,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 
 const CourseReps = () => {
-    const coursereps = []
+    // const coursereps = []
     const sectionRef = useRef<HTMLDivElement | null>(null);
     const imageRef = useRef<HTMLDivElement | null>(null);
     const image1Ref = useRef<HTMLImageElement>(null);
